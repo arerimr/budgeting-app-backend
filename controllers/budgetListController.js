@@ -14,4 +14,10 @@ budget.get("/:id", (req, res) => {
     item ? res.status(200).send(item) : res.status(200).redirect("/")
 })
 
+budget.post('/', (req, res)=>{
+    const newItem = req.body
+    budgetListArr.push(newItem)
+    res.status(200).send(budgetListArr)
+})
+
 module.exports = budget
