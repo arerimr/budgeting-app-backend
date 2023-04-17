@@ -1,14 +1,16 @@
 module.exports = [
     {
-       date: "04/01/2023",
-       title: "Rent",
-       amount: 1250,
-       comment: "Gotta pay it on the 1st",
-       priority: "high",
-       completed: true,
-       income: false
+        id: 0,
+        date: "04/01/2023",
+        title: "Rent",
+        amount: 1250,
+        comment: "Gotta pay it on the 1st",
+        priority: "high",
+        completed: true,
+        income: false
     },
     {
+        id: 1,
         date: "04/20/2023",
         title: "Car Note",
         amount: 200,
@@ -16,8 +18,9 @@ module.exports = [
         priority: "medium",
         completed: false,
         income: false
-     },
-     {
+    },
+    {
+        id: 2,
         date: "04/19/2023",
         title: "Paycheck",
         amount: 598,
@@ -25,8 +28,9 @@ module.exports = [
         priority: "high",
         completed: false,
         income: true
-     },
-     {
+    },
+    {
+        id: 3,
         date: "04/17/2023",
         title: "Uber Eats",
         amount: 85,
@@ -34,8 +38,9 @@ module.exports = [
         priority: "medium",
         completed: true,
         income: true
-     },
-     {
+    },
+    {
+        id: 4,
         date: "04/26/2023",
         title: "Paycheck",
         amount: 599,
@@ -43,8 +48,9 @@ module.exports = [
         priority: "high",
         completed: false,
         income: true
-     },
-     {
+    },
+    {
+        id: 5,
         date: "04/12/2023",
         title: "Paycheck",
         amount: 620,
@@ -52,8 +58,9 @@ module.exports = [
         priority: "high",
         completed: true,
         income: true
-     },
-     {
+    },
+    {
+        id: 6,
         date: "04/05/2023",
         title: "Paycheck",
         amount: 598,
@@ -61,8 +68,9 @@ module.exports = [
         priority: "high",
         completed: true,
         income: true
-     },
-     {
+    },
+    {
+        id: 7,
         date: "04/22/2023",
         title: "Wifi",
         amount: 24,
@@ -70,8 +78,9 @@ module.exports = [
         priority: "medium",
         completed: false,
         income: false
-     },
-     {
+    },
+    {
+        id: 8,
         date: "04/30/2023",
         title: "Tote bag",
         amount: 200,
@@ -79,8 +88,9 @@ module.exports = [
         priority: "low",
         completed: false,
         income: false
-     },
-     {
+    },
+    {
+        id: 9,
         date: "04/30/2023",
         title: "diesmo",
         amount: 200,
@@ -88,6 +98,6 @@ module.exports = [
         priority: "high",
         completed: false,
         income: false
-     },
+    },
 
 ]
