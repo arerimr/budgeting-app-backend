@@ -2,102 +2,122 @@ module.exports = [
     {
         id: 0,
         date: "04/01/2023",
-        title: "Rent",
+        item_name: "Rent",
         amount: 1250,
         comment: "Gotta pay it on the 1st",
         priority: "high",
         completed: true,
-        income: false
+        from: "landlord",
+        income: false,
+        category: "bills"
     },
     {
         id: 1,
         date: "04/20/2023",
-        title: "Car Note",
+        item_name: "Car Note",
         amount: 200,
         comment: "Zelle money to mom",
         priority: "medium",
         completed: false,
-        income: false
+        from: "bank",
+        income: false,
+        category: "bills"
     },
     {
         id: 2,
         date: "04/19/2023",
-        title: "Paycheck",
+        item_name: "Paycheck",
         amount: 598,
         comment: "shhmoneyy coming in finally",
         priority: "high",
         completed: false,
-        income: true
+        from: "employer",
+        income: true,
+        category: "income"
     },
     {
         id: 3,
         date: "04/17/2023",
-        title: "Uber Eats",
+        item_name: "Uber Eats",
         amount: 85,
         comment: "pay credit card",
         priority: "medium",
         completed: true,
-        income: true
+        from: "uber",
+        income: true,
+        category: "income"
     },
     {
         id: 4,
         date: "04/26/2023",
-        title: "Paycheck",
+        item_name: "Paycheck",
         amount: 599,
         comment: "shhmoneyy coming in finally",
         priority: "high",
         completed: false,
-        income: true
+        from: "employer",
+        income: true,
+        category: "income"
     },
     {
         id: 5,
         date: "04/12/2023",
-        title: "Paycheck",
+        item_name: "Paycheck",
         amount: 620,
         comment: "shhmoneyy coming in finally",
         priority: "high",
         completed: true,
-        income: true
+        from: "employer",
+        income: true,
+        category: "income"
     },
     {
         id: 6,
         date: "04/05/2023",
-        title: "Paycheck",
+        item_name: "Paycheck",
         amount: 598,
         comment: "shhmoneyy coming in finally",
         priority: "high",
         completed: true,
-        income: true
+        from: "employer",
+        income: true,
+        category: "income"
     },
     {
         id: 7,
         date: "04/22/2023",
-        title: "Wifi",
+        item_name: "Wifi",
         amount: 24,
         comment: "pay with apple card, then pay the card",
         priority: "medium",
         completed: false,
-        income: false
+        from: "optimum",
+        income: false,
+        category: "bills"
     },
     {
         id: 8,
         date: "04/30/2023",
-        title: "Tote bag",
+        item_name: "Tote bag",
         amount: 200,
         comment: "Buy when you have money",
         priority: "low",
         completed: false,
-        income: false
+        from: "Marc Jacobs",
+        income: false,
+        category: "personal"
     },
     {
         id: 9,
         date: "04/30/2023",
-        title: "diesmo",
+        item_name: "diesmo",
         amount: 200,
         comment: "God's money",
         priority: "high",
         completed: false,
-        income: false
+        from: "church",
+        income: false,
+        category: "personal"
     },
 
 ]
