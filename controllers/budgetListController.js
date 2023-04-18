@@ -14,10 +14,16 @@ budget.get("/:id", (req, res) => {
     item ? res.status(200).send(item) : res.status(200).redirect("/")
 })
 
-budget.post('/', (req, res)=>{
+budget.post('/', (req, res) => {
     const newItem = req.body
     budgetListArr.push(newItem)
     res.status(200).send(budgetListArr)
+})
+
+budget.delete('/:id', (req, res) => {
+    const { id } = req.params
+    const deletedItem = budgetListArr.splice(id, 1)
+    res.status(200).send(deletedItem)
 })
 
 module.exports = budget
