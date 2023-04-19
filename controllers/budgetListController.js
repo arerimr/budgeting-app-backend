@@ -26,10 +26,14 @@ budget.delete('/:id', (req, res) => {
     res.status(200).send(deletedItem)
 })
 
-budget.put(':id', (req, res) => {
-    const { id } = req.params
-    const updatedItem = req.body
-    budgetListArr[id] ? res.status(200).send(updatedItem) : res.status(200).redirect('/')
+budget.put(':index', (req, res) => {
+    const { index } = req.params
+    if (budgetListArr[index]){
+        budgetListArr[index] = req.body
+        res.status(200).json(budgetListArr[index])
+    } else{
+        res.status(404).redirect('/')
+    }
 })
 
 module.exports = budget
