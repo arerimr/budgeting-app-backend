@@ -2,7 +2,7 @@ const express = require('express')
 
 const budget = express.Router()
 
-const budgetListArr = require('../models/budgetList.js')
+const budgetListArr = require('../models/budgetList.js').sort((a, b) => new Date(b.date) - new Date(a.date))
 
 budget.get("/", (req, res) => {
     res.status(200).send(budgetListArr)
